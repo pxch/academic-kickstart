@@ -8,33 +8,34 @@ date = "2016-04-20T00:00:00"
 weight = 5
 
 # List your academic interests.
-[interests]
-  interests = [
-    "Artificial Intelligence",
-    "Computational Linguistics",
-    "Information Retrieval"
-  ]
+# [interests]
+#   interests = [
+#     "Natural Language Processing",
+#     "Computational Linguistics",
+#   ]
 
 # List your qualifications (such as academic degrees).
-[[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
-  year = 2012
-
-[[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2009
-
-[[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2008
- 
+# [[education.courses]]
+#   course = "Ph.D. in Computer Science"
+#   institution = "The University of Texas at Austin"
+#   year = "2013 - Current"
+# 
+# [[education.courses]]
+#   course = "B.Econ. in Economics"
+#   institution = "Tsinghua University"
+#   year = "2010 - 2013"
+# 
+# [[education.courses]]
+#   course = "B.Eng. in Automation"
+#   institution = "Tsinghua University"
+#   year = "2009 - 2013"
+#  
 +++
 
-# Biography
+# About
 
-Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a PhD student in [Department of Computer Science](https://www.cs.utexas.edu) at [The University of Texas at Austin](https://www.utexas.edu), starting from Fall 2013. I am supervised by [Professor Katrin Erk](http://www.katrinerk.com).
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+My research is in natural language processing (NLP), focusing on computational semantics. Currently I am working on how implicit arguments can be inferred by narrative coherence (prototipical sequences of narrative events and participants), and how such knowledge can be applied to end tasks that require complex reasoning, like reading comprehension.
+
+Before coming to UT Austin, I received Bachelor of Engineering in [Department of Automation](http://www.au.tsinghua.edu.cn), and Bachelor of Economics (double major) in [School of Economics and Management](http://www.sem.tsinghua.edu.cn), at [Tsinghua University](http://www.tsinghua.edu.cn).
