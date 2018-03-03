@@ -51,7 +51,7 @@ defaultContentLanguageInSubdir = false
 
   # Your details.
   name = "Pengxiang Cheng"
-  role = "PhD Student"
+  role = "Ph.D. Student"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -235,7 +235,7 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "google-scholar"
     icon_pack = "ai"
-    link = "https://scholar.google.co.uk/citations?user=hqhIgYUAAAAJ"
+    link = "https://scholar.google.com/citations?user=hqhIgYUAAAAJ"
 
   [[params.social]]
     icon = "github"
