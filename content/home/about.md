@@ -38,4 +38,4 @@ I am a Ph.D. student in [Department of Computer Science](https://www.cs.utexas.e
 
 My research is in natural language processing (NLP), focusing on computational semantics. Currently I am working on how implicit arguments of events can be inferred from narrative coherence, and how such knowledge can be applied to end tasks that require complex reasoning, like reading comprehension.
 
-Before coming to UT Austin, I obtained my B.Eng. in Automation, and B.Econ. in Economics (double major), both from [Tsinghua University](http://www.tsinghua.edu.cn).
+Before coming to UT Austin, I obtained my B.Eng. in Automation, and B.Econ. in Economics (double degree), both from [Tsinghua University](http://www.tsinghua.edu.cn).
