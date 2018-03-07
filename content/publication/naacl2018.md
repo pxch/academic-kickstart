@@ -17,9 +17,11 @@ authors = ["**Pengxiang Cheng**", "Katrin Erk"]
 # 6 = Book section
 publication_types = ["1"]
 
+to_appear = true
+
 # Publication name and optional abbreviated version.
-publication = "To Appear, *Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies*"
-publication_short = "To Appear, *NAACL HLT*"
+publication = "*Proceedings of the 16th Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies*"
+publication_short = "*NAACL HLT 2018*"
 
 # Abstract and optional shortened version.
 abstract = "Implicit arguments are not syntactically connected to their predicates, and are therefore hard to extract. Previous work has used models with large numbers of features, evaluated on very small datasets. We propose to train models for implicit argument prediction on a simple cloze task, for which data can be generated automatically at scale. This allows us to use a neural model, which draws on narrative coherence and entity salience for predictions. We show that our model has superior performance on both synthetic and natural data."
