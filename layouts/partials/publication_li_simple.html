@@ -1,6 +1,12 @@
 <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <a href="{{ .Permalink }}" itemprop="name">{{ .Title }}</a>
+  {{ if .Params.url_pdf }}
+    <a href="{{ .Params.url_pdf }}" itemprop="name" target="_blank">{{ .Title }}</a>
+  {{ else if .Params.url_preprint }}
+    <a href="{{ .Params.url_preprint }}" itemprop="name" target="_blank">{{ .Title }}</a>
+  {{ else }}
+    {{ .Title }}
+  {{ end }}
   <div itemprop="author">
     {{ with .Params.authors }}
       {{- delimit . ", " | markdownify -}}
@@ -10,9 +16,10 @@
     To Appear, 
   {{ end }}
   {{ if .Params.publication_short }}
-    {{- .Params.publication_short | markdownify -}}.
+    {{- .Params.publication_short | markdownify -}},
   {{ else if .Params.publication }}
-    {{- .Params.publication | markdownify }}, {{ .Date.Format "2006" -}}.
+    {{- .Params.publication | markdownify }},
   {{ end }}
+  {{- .Date.Format "2006" -}}.
   <p>{{ partial "publication_links" (dict "content" . "is_list" 1) }}</p>
 </div>
