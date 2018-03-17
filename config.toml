@@ -286,6 +286,21 @@ defaultContentLanguageInSubdir = false
   url = "#contact"
   weight = 6
 
+[[menu.main]]
+  name = "Blog"
+  url = "/post"
+  weight = 10
+
+[[menu.post]]
+  name = "Home"
+  url = "#about"
+  weight = 1
+
+[[menu.post]]
+  name = "Blog"
+  url = "/post"
+  weight = 2
+
 # Taxonomies.
 [taxonomies]
   tag = "tags"

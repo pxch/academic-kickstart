@@ -82,6 +82,9 @@
 - id: more_posts
   translation: More Posts
 
+- id: back_to_list
+  translation: BACK TO LIST
+
 # Talks widget
 
 - id: more_talks

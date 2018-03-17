@@ -1,12 +1,15 @@
 {{ partial "header.html" . }}
-{{ partial "navbar.html" . }}
+{{ partial "navbar_post.html" . }}
 
 {{ partial "header_image.html" . }}
 
 <div class="universal-wrapper">
   <div class="row">
 
+  <h1></h1>
+  <!--
   <h1>{{ .Title | default (i18n "posts") }}</h1>
+  -->
 
   {{ with .Content }}
   <div class="article-style" itemprop="articleBody">{{ . }}</div>
