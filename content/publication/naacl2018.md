@@ -3,6 +3,8 @@ title = "Implicit Argument Prediction with Event Knowledge"
 date = 2018-02-20
 draft = false
 
+bibkey = "naacl2018"
+
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["**Pengxiang Cheng**", "Katrin Erk"]
 

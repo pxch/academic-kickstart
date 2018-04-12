@@ -15,20 +15,20 @@ weight = 60
 
 +++
 
-## Internships
+#### Work Experience
 
-|                                    |                    |              |
-| ---------------------------------- | ------------------ | ------------ |
-| Google, Payments team              | Mountain View, CA  | Summer 2015  |
-| Google, Machine Intelligence team  | Mountain View, CA  | Summer 2014  |
+|                 |                                     |        |                    |
+| --------------- | ----------------------------------- | ------ | ------------------ |
+| 2015.5 - 2015.8 | Intern at Payments Pipeline Team    | Google | Mountain View, CA  |
+| 2014.5 - 2014.8 | Intern at Machine Intelligence Team | Google | Mountain View, CA  |
 
-## TAs
+#### Teaching Experience
 
-|          |                                           |                       |
-| -------- | ----------------------------------------- | --------------------- |
-| CS 342C  | Computational Brain                       | Spring 2014           |
-| CS 378   | Computer Vision & 3D Reconstruction       | Fall 2014             |
-| LIN 353C | Introduction to Computational Linguistics | Spring 2015           |
-| CS 345H  | Programming Languages: Honors             | Fall 2016 & Fall 2017 |
-| CS 389L  | Automated Logic Reasoning                 | Spring 2017           |
+|                                                           |           |                 |
+| --------------------------------------------------------- | --------- | --------------- |
+| TA for CS 389L Automated Logic Reasoning                  | UT Austin | Spring 2017     |
+| TA for CS 345H Programming Languages: Honors              | UT Austin | Fall 2016, 2017 |
+| TA for LIN 353C Introduction to Computational Linguistics | UT Austin | Spring 2015     |
+| TA for CS 378 Computer Vision & 3D Reconstruction         | UT Austin | Fall 2014       |
+| TA for CS 342C Computational Brain                        | UT Austin | Spring 2014     |
 

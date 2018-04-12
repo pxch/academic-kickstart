@@ -237,10 +237,20 @@ defaultContentLanguageInSubdir = false
     icon_pack = "ai"
     link = "https://scholar.google.com/citations?user=hqhIgYUAAAAJ"
 
+  # [[params.social]]
+  #   icon = "dblp"
+  #   icon_pack = "ai"
+  #   link = "https://dblp.org/pid/163/2279"
+
+  # [[params.social]]
+  #   icon = "orcid"
+  #   icon_pack = "ai"
+  #   link = "https://orcid.org/0000-0002-9762-5159"
+
   [[params.social]]
     icon = "github"
     icon_pack = "fa"
-    link = "//github.com/pxcheng526"
+    link = "//github.com/pxch"
 
 
 # Navigation Links
@@ -286,10 +296,10 @@ defaultContentLanguageInSubdir = false
   url = "#contact"
   weight = 6
 
-[[menu.main]]
-  name = "Blog"
-  url = "/post"
-  weight = 10
+# [[menu.main]]
+#   name = "Blog"
+#   url = "/blog/"
+#   weight = 10
 
 [[menu.post]]
   name = "Home"
