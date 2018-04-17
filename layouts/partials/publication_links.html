@@ -2,13 +2,18 @@
 {{ $ := .content }}
 
 {{ with $.Params.url_preprint }}
-<a class="btn btn-primary btn-outline{{ if $is_list }} btn-xs{{end}}" href="{{ . | absURL }}" rel="noopener">
-  <span style="font-size:large">{{ i18n "btn_preprint" }}</span>
+<a class="btn btn-primary btn-outline{{ if $is_list }} btn-xs{{end}}" href="{{ . | absURL }}" target="_blank" rel="noopener">
+  <span style="font-size:medium">{{ i18n "btn_preprint" }}</span>
 </a>
 {{ end }}
 {{ with $.Params.url_pdf }}
-<a class="btn btn-primary btn-outline{{ if $is_list }} btn-xs{{end}}" href="{{ . | absURL }}" rel="noopener">
-  <span style="font-size:large">{{ i18n "btn_pdf" }}</span>
+<a class="btn btn-primary btn-outline{{ if $is_list }} btn-xs{{end}}" href="{{ . | absURL }}" target="_blank" rel="noopener">
+  <span style="font-size:medium">{{ i18n "btn_pdf" }}</span>
+</a>
+{{ end }}
+{{ with $.Params.url_code }}
+<a class="btn btn-primary btn-outline{{ if $is_list }} btn-xs{{end}}" href="{{ . | absURL }}" target="_blank" rel="noopener">
+  <span style="font-size:medium">{{ i18n "btn_code" }}</span>
 </a>
 {{ end }}
 {{ $directory := "static/files/citations/" }}
@@ -16,15 +21,10 @@
 {{ if fileExists $filename }}
 <button type="button" class="btn btn-primary btn-outline{{ if $is_list }} btn-xs{{end}} js-cite-modal"
         data-filename="{{ printf "files/citations/%s.bib" $.File.TranslationBaseName | relURL }}">
-  <span style="font-size:large">{{ i18n "btn_cite" }}</span>
+  <span style="font-size:medium">{{ i18n "btn_cite" }}</span>
 </button>
 {{ end }}
 
-{{ with $.Params.url_code }}
-<a class="btn btn-primary btn-outline{{ if $is_list }} btn-xs{{end}}" href="{{ . | absURL }}" target="_blank" rel="noopener">
-  {{ i18n "btn_code" }}
-</a>
-{{ end }}
 {{ with $.Params.url_dataset }}
 <a class="btn btn-primary btn-outline{{ if $is_list }} btn-xs{{end}}" href="{{ . | absURL }}" target="_blank" rel="noopener">
   {{ i18n "btn_dataset" }}

@@ -9,13 +9,13 @@
     document.getElementById('{{ $.Params.bibkey }}-abstract').style.display='block';
   }
   ">
-  <span style="font-size:large">{{ i18n "abstract" }}</span>
+  <span style="font-size:medium">{{ i18n "abstract" }}</span>
 </a>
 {{ end }}
 
 {{ with $.Permalink }}
 <a class="btn btn-primary btn-outline{{ if $is_list }} btn-xs{{end}}" href="{{ . | absURL }}" rel="noopener">
-  <span style="font-size:large">{{ i18n "btn_details" }}</span>
+  <span style="font-size:medium">{{ i18n "btn_details" }}</span>
 </a>
 {{ end }}
 

@@ -48,7 +48,7 @@ tags = []
 # Links (optional).
 url_pdf = ""
 url_preprint = "https://arxiv.org/abs/1802.07226"
-url_code = ""
+url_code = "https://github.com/pxch/event_imp_arg"
 url_dataset = ""
 url_project = ""
 url_slides = ""
