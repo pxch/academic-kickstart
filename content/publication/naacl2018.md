@@ -22,7 +22,7 @@ publication_types = ["1"]
 to_appear = true
 
 # Publication name and optional abbreviated version.
-publication = "*Proceedings of the 16th Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies*"
+publication = "*Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies*"
 publication_short = "*NAACL HLT*"
 
 # Abstract and optional shortened version.
@@ -46,7 +46,7 @@ projects = []
 tags = []
 
 # Links (optional).
-url_pdf = ""
+url_pdf = "http://aclweb.org/anthology/N18-1076"
 url_preprint = "https://arxiv.org/abs/1802.07226"
 url_code = "https://github.com/pxch/event_imp_arg"
 url_dataset = ""
