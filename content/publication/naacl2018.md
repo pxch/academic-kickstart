@@ -1,6 +1,6 @@
 +++
 title = "Implicit Argument Prediction with Event Knowledge"
-date = 2018-02-20
+date = 2018-06-02
 draft = false
 
 bibkey = "naacl2018"
@@ -19,10 +19,10 @@ authors = ["**Pengxiang Cheng**", "Katrin Erk"]
 # 6 = Book section
 publication_types = ["1"]
 
-to_appear = true
+to_appear = false
 
 # Publication name and optional abbreviated version.
-publication = "*Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies*"
+publication = "*Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers)*"
 publication_short = "*NAACL HLT*"
 
 # Abstract and optional shortened version.
@@ -53,7 +53,7 @@ url_dataset = ""
 url_project = ""
 url_slides = ""
 url_video = ""
-url_poster = ""
+url_poster = "files/naacl2018_poster.pdf"
 url_source = ""
 
 # Custom links (optional).
