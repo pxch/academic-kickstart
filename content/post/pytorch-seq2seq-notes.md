@@ -1,6 +1,7 @@
 +++
 title = "PyTorch Seq2Seq Notes"
-date = 2018-03-01T03:05:06-06:00
+date = 2018-03-01T03:05:06
+lastmod = 2018-06-12T18:10:00
 draft = true
 
 # Tags and categories

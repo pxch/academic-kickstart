@@ -1,6 +1,7 @@
 +++
 title = "Common Git Commands"
-date = 2018-02-26T14:30:23-06:00
+date = 2018-02-26T14:30:23
+lastmod = 2018-06-12T18:08:00
 draft = true
 
 # Tags and categories
