@@ -1,6 +1,8 @@
 <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  {{ if .Params.url_pdf }}
+  {{ if .Params.url_acl }}
+    <a href="{{ .Params.url_acl }}" target="_blank" itemprop="name">{{ .Title }}</a>
+  {{ else if .Params.url_pdf }}
     <a href="{{ .Params.url_pdf }}" target="_blank" itemprop="name">{{ .Title }}</a>
   {{ else if .Params.url_preprint }}
     <a href="{{ .Params.url_preprint }}" target="_blank" itemprop="name">{{ .Title }}</a>

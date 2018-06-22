@@ -1,14 +1,14 @@
 {{ $is_list := .is_list }}
 {{ $ := .content }}
 
-{{ with $.Params.url_preprint }}
-<a class="btn btn-primary btn-outline{{ if $is_list }} btn-xs{{end}}" href="{{ . | absURL }}" target="_blank" rel="noopener">
-  <span style="font-size:medium">{{ i18n "btn_preprint" }}</span>
-</a>
-{{ end }}
 {{ with $.Params.url_pdf }}
 <a class="btn btn-primary btn-outline{{ if $is_list }} btn-xs{{end}}" href="{{ . | absURL }}" target="_blank" rel="noopener">
   <span style="font-size:medium">{{ i18n "btn_pdf" }}</span>
+</a>
+{{ end }}
+{{ with $.Params.url_preprint }}
+<a class="btn btn-primary btn-outline{{ if $is_list }} btn-xs{{end}}" href="{{ . | absURL }}" target="_blank" rel="noopener">
+  <span style="font-size:medium">{{ i18n "btn_preprint" }}</span>
 </a>
 {{ end }}
 {{ with $.Params.url_poster }}
