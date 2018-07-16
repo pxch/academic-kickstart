@@ -1,13 +1,14 @@
 +++
 title = "PyTorch Seq2Seq Notes"
+
 date = 2018-03-01T03:05:06
 lastmod = 2018-06-12T18:10:00
 draft = true
 
-# Tags and categories
-# For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
+# Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
+authors = []
+
 tags = []
-categories = []
 
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.

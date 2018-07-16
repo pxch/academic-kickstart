@@ -1,13 +1,14 @@
 +++
 title = "Common Git Commands"
+
 date = 2018-02-26T14:30:23
 lastmod = 2018-06-12T18:08:00
 draft = true
 
-# Tags and categories
-# For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
+# Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
+authors = []
+
 tags = []
-categories = []
 
 summary = "Usages of my most forgettable Git commands for reference."
 
