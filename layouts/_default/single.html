@@ -3,14 +3,10 @@
 
 <article class="article" itemscope itemtype="http://schema.org/Article">
 
-  {{ partial "header_image.html" . }}
+  {{ partial "page_header.html" . }}
 
   <div class="article-container">
-    <a class="btn btn-primary btn-outline" href="{{ "post/" | relLangURL }}">{{ i18n "back_to_list" }}</a>
-
-    <h1 itemprop="name">{{ .Title }}</h1>
-
-    {{ partial "article_metadata" (dict "content" . "is_list" 0) }}
+    <a class="btn btn-outline-primary my-1 mr-1" href="{{ "post/" | relLangURL }}">{{ i18n "back_to_list" }}</a>
 
     <div class="article-style" itemprop="articleBody">
       {{ .Content }}

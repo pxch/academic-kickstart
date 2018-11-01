@@ -2,20 +2,21 @@
 {{ $ := .content }}
 
 {{ with $.Params.abstract }}
-<a class="btn btn-primary btn-outline{{ if $is_list }} btn-xs{{end}}" href="javascript:;" onClick="
+<a class="btn btn-outline-primary my-1 mr-1{{ if $is_list }} btn-sm{{end}}" href="javascript:;" onClick="
   if (document.getElementById('{{ $.Params.bibkey }}-abstract').style.display == 'block') {
     document.getElementById('{{ $.Params.bibkey }}-abstract').style.display='none';
   } else {
     document.getElementById('{{ $.Params.bibkey }}-abstract').style.display='block';
   }
   ">
-  <span style="font-size:medium">{{ i18n "abstract" }}</span>
+  {{ i18n "abstract" }}
 </a>
 {{ end }}
 
 {{ with $.Permalink }}
-<a class="btn btn-primary btn-outline{{ if $is_list }} btn-xs{{end}}" href="{{ . | absURL }}" rel="noopener">
-  <span style="font-size:medium">{{ i18n "btn_details" }}</span>
+{{ $link := . | absURL }}
+<a class="btn btn-outline-primary my-1 mr-1{{ if $is_list }} btn-sm{{end}}" href="{{ $link }}" rel="noopener">
+  {{ i18n "btn_details" }}
 </a>
 {{ end }}
 

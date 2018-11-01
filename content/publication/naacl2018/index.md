@@ -55,12 +55,15 @@ url_dataset = ""
 url_project = ""
 url_slides = ""
 url_video = ""
-url_poster = "files/naacl2018_poster.pdf"
+url_poster = "naacl2018_poster.pdf"
 url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
 # url_custom = [{name = "Custom Link", url = "http://example.org"}]
+
+# Digital Object Identifier (DOI)
+# doi = "10.18653/v1/N18-1076"
 
 # Does this page contain LaTeX math? (true/false)
 math = false
@@ -69,9 +72,13 @@ math = false
 highlight = true
 
 # Featured image
-# Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
-[header]
-image = ""
-caption = ""
+# To use, add an image named `featured.jpg/png` to your page's folder. 
+[image]
+  # Caption (optional)
+  caption = ""
+
+  # Focal point (optional)
+  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  focal_point = ""
 
 +++

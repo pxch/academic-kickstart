@@ -19,6 +19,8 @@ authors = ["I. Beltagy", "Stephen Roller", "**Pengxiang Cheng**", "Katrin Erk", 
 # 6 = Book section
 publication_types = ["2"]
 
+to_appear = false
+
 # Publication name and optional abbreviated version.
 publication = "*Computational Linguistics*, 42(4)"
 publication_short = ""
@@ -60,6 +62,9 @@ url_source = ""
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
 # url_custom = [{name = "Custom Link", url = "http://example.org"}]
 
+# Digital Object Identifier (DOI)
+# doi = "10.1162/COLI_a_00266"
+
 # Does this page contain LaTeX math? (true/false)
 math = false
 
@@ -67,9 +72,13 @@ math = false
 highlight = true
 
 # Featured image
-# Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
-[header]
-image = ""
-caption = ""
+# To use, add an image named `featured.jpg/png` to your page's folder. 
+[image]
+  # Caption (optional)
+  caption = ""
+
+  # Focal point (optional)
+  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  focal_point = ""
 
 +++
