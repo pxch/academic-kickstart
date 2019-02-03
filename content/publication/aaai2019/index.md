@@ -1,6 +1,6 @@
 +++
 title = "Implicit Argument Prediction as Reading Comprehension"
-date = 2019-01-27
+date = 2019-01-29
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -17,7 +17,7 @@ authors = ["**Pengxiang Cheng**", "Katrin Erk"]
 # 6 = Book section
 publication_types = ["1"]
 
-to_appear = true
+to_appear = false
 
 # Publication name and optional abbreviated version.
 publication = "*AAAI Conference on Artificial Intelligence*"
@@ -50,7 +50,7 @@ url_dataset = ""
 url_project = ""
 url_slides = ""
 url_video = ""
-url_poster = ""
+url_poster = "aaai2019_poster.pdf"
 url_source = ""
 
 # Custom links (optional).
