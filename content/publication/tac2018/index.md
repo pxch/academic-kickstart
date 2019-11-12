@@ -1,10 +1,12 @@
 +++
-title = "Implicit Argument Prediction as Reading Comprehension"
-date = 2019-01-29
-draft = false
+title = "The UTexas System for TAC SM-KBP Task 3: Probabilistic Generation of Coherent Hypotheses"
+date = 2018-11-13
+draft = true 
+
+bibkey = "tac2018"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["**Pengxiang Cheng**", "Katrin Erk"]
+authors = ["**Pengxiang Cheng**", "Eric Holgate", "Katrin Erk"]
 
 # Publication type.
 # Legend:
@@ -20,11 +22,11 @@ publication_types = ["1"]
 to_appear = false
 
 # Publication name and optional abbreviated version.
-publication = "*AAAI Conference on Artificial Intelligence*"
-publication_short = "*AAAI*"
+publication = "Proceedings of the 2018 Text Analysis Conference"
+publication_short = "*TAC*"
 
 # Abstract and optional shortened version.
-abstract = "Implicit arguments, which cannot be detected solely through syntactic cues, make it harder to extract predicate-argument tuples. We present a new model for implicit argument prediction that draws on reading comprehension, casting the predicate-argument tuple with the missing argument as a query. We also draw on pointer networks and multi-hop computation. Our model shows good performance on an argument cloze task as well as on a nominal implicit argument prediction task."
+abstract = ""
 abstract_short = ""
 
 # Is this a selected publication? (true/false)
@@ -43,15 +45,15 @@ projects = []
 tags = []
 
 # Links (optional).
-url_proceedings = "https://aaai.org/ojs/index.php/AAAI/article/view/4589"
-url_pdf = "https://arxiv.org/pdf/1811.03554.pdf"
-url_preprint = "https://arxiv.org/abs/1811.03554"
-url_code = "https://github.com/pxch/imp_arg_rc"
+url_proceedings = "https://tac.nist.gov/publications/2018/participant.papers/TAC2018.UTexas.proceedings.pdf"
+url_pdf = "tac2018.pdf"
+url_preprint = ""
+url_code = ""
 url_dataset = ""
 url_project = ""
 url_slides = ""
 url_video = ""
-url_poster = "aaai2019_poster.pdf"
+url_poster = ""
 url_source = ""
 
 # Custom links (optional).

@@ -47,8 +47,8 @@ projects = []
 tags = []
 
 # Links (optional).
-url_acl = "https://aclanthology.coli.uni-saarland.de/papers/N18-1076/n18-1076"
-url_pdf = "http://aclweb.org/anthology/N18-1076"
+url_proceedings = "http://aclweb.org/anthology/N18-1076"
+url_pdf = "http://aclweb.org/anthology/N18-1076.pdf"
 url_preprint = "https://arxiv.org/abs/1802.07226"
 url_code = "https://github.com/pxch/event_imp_arg"
 url_dataset = ""

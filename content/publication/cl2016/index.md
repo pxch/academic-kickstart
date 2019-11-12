@@ -47,8 +47,8 @@ projects = []
 tags = []
 
 # Links (optional).
-url_acl = "https://aclanthology.coli.uni-saarland.de/papers/J16-4007/j16-4007"
-url_pdf = "http://www.aclweb.org/anthology/J16-4007"
+url_proceedings = "http://www.aclweb.org/anthology/J16-4007"
+url_pdf = "http://www.aclweb.org/anthology/J16-4007.pdf"
 url_preprint = "https://arxiv.org/abs/1505.06816"
 url_code = ""
 url_dataset = ""
