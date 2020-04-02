@@ -3,6 +3,8 @@ title = "Implicit Argument Prediction as Reading Comprehension"
 date = 2019-01-29
 draft = false
 
+bibkey = "cheng_erk_aaai2019"
+
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["**Pengxiang Cheng**", "Katrin Erk"]
 
@@ -20,7 +22,7 @@ publication_types = ["1"]
 to_appear = false
 
 # Publication name and optional abbreviated version.
-publication = "*AAAI Conference on Artificial Intelligence*"
+publication = "Proceedings of the AAAI Conference on Artificial Intelligence"
 publication_short = "*AAAI*"
 
 # Abstract and optional shortened version.
@@ -43,23 +45,25 @@ projects = []
 tags = []
 
 # Links (optional).
-url_proceedings = "https://aaai.org/ojs/index.php/AAAI/article/view/4589"
 url_pdf = "https://arxiv.org/pdf/1811.03554.pdf"
-url_preprint = "https://arxiv.org/abs/1811.03554"
+url_preprint = ""
 url_code = "https://github.com/pxch/imp_arg_rc"
 url_dataset = ""
 url_project = ""
 url_slides = ""
 url_video = ""
-url_poster = "aaai2019_poster.pdf"
+url_poster = "cheng_erk_aaai2019_poster.pdf"
 url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
 # url_custom = [{name = "Custom Link", url = "http://example.org"}]
+url_custom = [{name = "AAAI Proceedings", url = "https://aaai.org/ojs/index.php/AAAI/article/view/4589"}]
+
+arxiv = "1811.03554"
 
 # Digital Object Identifier (DOI)
-doi = ""
+doi = "10.1609/aaai.v33i01.33016284"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

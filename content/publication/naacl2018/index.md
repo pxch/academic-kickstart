@@ -3,7 +3,7 @@ title = "Implicit Argument Prediction with Event Knowledge"
 date = 2018-06-02
 draft = false
 
-bibkey = "naacl2018"
+bibkey = "cheng_erk_naacl2018"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["**Pengxiang Cheng**", "Katrin Erk"]
@@ -22,8 +22,8 @@ publication_types = ["1"]
 to_appear = false
 
 # Publication name and optional abbreviated version.
-publication = "*Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers)*"
-publication_short = "*NAACL HLT*"
+publication = "Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers)"
+publication_short = "*NAACL*"
 
 # Abstract and optional shortened version.
 abstract = "Implicit arguments are not syntactically connected to their predicates, and are therefore hard to extract. Previous work has used models with large numbers of features, evaluated on very small datasets. We propose to train models for implicit argument prediction on a simple cloze task, for which data can be generated automatically at scale. This allows us to use a neural model, which draws on narrative coherence and entity salience for predictions. We show that our model has superior performance on both synthetic and natural data."
@@ -47,23 +47,25 @@ projects = []
 tags = []
 
 # Links (optional).
-url_proceedings = "http://aclweb.org/anthology/N18-1076"
 url_pdf = "http://aclweb.org/anthology/N18-1076.pdf"
-url_preprint = "https://arxiv.org/abs/1802.07226"
+url_preprint = ""
 url_code = "https://github.com/pxch/event_imp_arg"
 url_dataset = ""
 url_project = ""
 url_slides = ""
 url_video = ""
-url_poster = "naacl2018_poster.pdf"
+url_poster = "cheng_erk_naacl2018_poster.pdf"
 url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
 # url_custom = [{name = "Custom Link", url = "http://example.org"}]
+url_custom = [{name = "ACL Proceedings", url = "http://aclweb.org/anthology/N18-1076"}]
+
+arxiv = "1802.07226"
 
 # Digital Object Identifier (DOI)
-# doi = "10.18653/v1/N18-1076"
+doi = "10.18653/v1/N18-1076"
 
 # Does this page contain LaTeX math? (true/false)
 math = false

@@ -1,9 +1,9 @@
 +++
 title = "The UTexas System for TAC SM-KBP Task 3: Probabilistic Generation of Coherent Hypotheses"
 date = 2018-11-13
-draft = true 
+draft = false
 
-bibkey = "tac2018"
+bibkey = "cheng_etal_tac2018"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["**Pengxiang Cheng**", "Eric Holgate", "Katrin Erk"]
@@ -22,7 +22,7 @@ publication_types = ["1"]
 to_appear = false
 
 # Publication name and optional abbreviated version.
-publication = "Proceedings of the 2018 Text Analysis Conference"
+publication = "Proceedings of the Eleventh Text Analysis Conference"
 publication_short = "*TAC*"
 
 # Abstract and optional shortened version.
@@ -45,8 +45,7 @@ projects = []
 tags = []
 
 # Links (optional).
-url_proceedings = "https://tac.nist.gov/publications/2018/participant.papers/TAC2018.UTexas.proceedings.pdf"
-url_pdf = "tac2018.pdf"
+url_pdf = "https://tac.nist.gov/publications/2018/participant.papers/TAC2018.UTexas.proceedings.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""

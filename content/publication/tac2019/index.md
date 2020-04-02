@@ -1,7 +1,9 @@
 +++
 title = "The UTexas System for TAC 2019 SM-KBP Task 3: Hypothesis Detection with Graph Convolutional Networks"
 date = 2019-11-12
-draft = true
+draft = false
+
+bibkey = "cheng_etal_tac2019"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["**Pengxiang Cheng**", "Alex Tomkovich", "Eric Holgate", "Su Wang", "Katrin Erk"]
@@ -17,10 +19,10 @@ authors = ["**Pengxiang Cheng**", "Alex Tomkovich", "Eric Holgate", "Su Wang", "
 # 6 = Book section
 publication_types = ["1"]
 
-to_appear = true
+to_appear = false
 
 # Publication name and optional abbreviated version.
-publication = "Proceedings of the 2019 Text Analysis Conference"
+publication = "Proceedings of the Twelfth Text Analysis Conference"
 publication_short = "*TAC*"
 
 # Abstract and optional shortened version.
@@ -43,14 +45,14 @@ projects = []
 tags = []
 
 # Links (optional).
-url_pdf = "tac2019.pdf"
+url_pdf = "https://tac.nist.gov/publications/2019/participant.papers/TAC2019.UTexas.proceedings.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
 url_project = ""
 url_slides = ""
 url_video = ""
-url_poster = "tac2019_poster.pdf"
+url_poster = "cheng_etal_tac2019_poster.pdf"
 url_source = ""
 
 # Custom links (optional).

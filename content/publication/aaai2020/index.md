@@ -3,6 +3,8 @@ title = "Attending to Entities for Better Text Understanding"
 date = 2020-02-09
 draft = false
 
+bibkey = "cheng_erk_aaai2020"
+
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["**Pengxiang Cheng**", "Katrin Erk"]
 
@@ -17,10 +19,10 @@ authors = ["**Pengxiang Cheng**", "Katrin Erk"]
 # 6 = Book section
 publication_types = ["1"]
 
-to_appear = true
+to_appear = false
 
 # Publication name and optional abbreviated version.
-publication = "*AAAI Conference on Artificial Intelligence*"
+publication = "Proceedings of the AAAI Conference on Artificial Intelligence"
 publication_short = "*AAAI*"
 
 # Abstract and optional shortened version.
@@ -44,18 +46,20 @@ tags = []
 
 # Links (optional).
 url_pdf = "https://arxiv.org/pdf/1911.04361.pdf"
-url_preprint = "https://arxiv.org/abs/1911.04361"
+url_preprint = ""
 url_code = ""
 url_dataset = ""
 url_project = ""
 url_slides = ""
 url_video = ""
-url_poster = ""
+url_poster = "cheng_erk_aaai2020_poster.pdf"
 url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
 # url_custom = [{name = "Custom Link", url = "http://example.org"}]
+
+arxiv = "1911.04361"
 
 # Digital Object Identifier (DOI)
 doi = ""
