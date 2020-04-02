@@ -13,7 +13,7 @@ title = "Pengxiang Cheng"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "Pengxiang Cheng &copy; 2018"
+copyright = "Pengxiang Cheng &copy; 2020"
 
 theme = "academic"
 enableEmoji = true
@@ -63,7 +63,7 @@ enableGitInfo = false
 
   # Details for the Contact Widget
   email = "pxcheng AT utexas DOT edu"
-  address = "Gates Dell Complex (GDC) 3.518D\n2317 Speedway, Stop D9500\nAustin, TX 78712"
+  address = "Gates Dell Complex (GDC) 3.818D\n2317 Speedway, Stop D9500\nAustin, TX 78712"
   office_hours = ""
   phone = ""
   skype = ""

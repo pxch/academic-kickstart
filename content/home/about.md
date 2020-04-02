@@ -34,8 +34,8 @@ weight = 5
 
 # About
 
-I am a Ph.D. candidate in the [Department of Computer Science](https://www.cs.utexas.edu) at the [University of Texas at Austin](https://www.utexas.edu), supervised by [Professor Katrin Erk](http://www.katrinerk.com).
+I am a Ph.D. candidate in the [Department of Computer Science](https://www.cs.utexas.edu) at the [University of Texas at Austin](https://www.utexas.edu), advised by [Professor Katrin Erk](http://www.katrinerk.com).
 
-My research is in natural language processing (NLP), focusing on computational semantics. Currently I am interested in how to infer implicit predicate-argument relations from text, and how to generalize such information to tasks that require complex reasoning over a broader context.
+My research interests lie in Natural Language Processing (NLP), focusing on computational semantics. I am particularly interested in different approaches of integrating structural semantic knowledge into end-to-end neural models for better semantic understanding and reasoning.
 
-Before coming to UT Austin, I obtained my B.Eng. in Automation, and B.Econ. in Economics (double degree), both from [Tsinghua University](http://www.tsinghua.edu.cn).
+Before coming to UT Austin, I completed my undergraduate studies at [Tsinghua University](http://www.tsinghua.edu.cn), majoring in Automation and Economics.
