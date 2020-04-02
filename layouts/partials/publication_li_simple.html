@@ -1,10 +1,6 @@
 <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  {{ if .Params.url_proceedings }}
-    <a href="{{ .Params.url_proceedings }}" target="_blank" itemprop="name">{{ .Title }}</a>
-  {{ else if .Params.url_preprint }}
-    <a href="{{ .Params.url_preprint }}" target="_blank" itemprop="name">{{ .Title }}</a>
-  {{ else if .Params.url_pdf }}
+  <!--<i class="far fa-file-alt pub-icon" aria-hidden="true"></i>-->
+  {{ if .Params.url_pdf }}
     <a href="{{ .Params.url_pdf }}" target="_blank" itemprop="name">{{ .Title }}</a>
   {{ else }}
     {{ .Title }}
@@ -18,10 +14,15 @@
     To Appear, 
   {{ end }}
   {{ if .Params.publication_short }}
-    {{- .Params.publication_short | markdownify -}},
+    {{- .Params.publication_short | markdownify }}
   {{ else if .Params.publication }}
-    {{- .Params.publication | markdownify }},
+    {{- .Params.publication | markdownify }}
   {{ end }}
-  {{- .Date.Format "2006" -}}.
-  <p>{{ partial "publication_links" (dict "content" . "is_list" 1) }}{{ partial "publication_links_extra" (dict "content" . "is_list" 1) }}</p>
+  {{ .Date.Format "2006" -}}
+  <p>
+    {{ partial "publication_links_main" (dict "content" . "is_list" 1) }}
+    <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="{{ .RelPermalink }}" rel="noopener">
+      {{ i18n "btn_details" }}
+    </a>
+  </p>
 </div>
