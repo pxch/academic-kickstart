@@ -1,0 +1,61 @@
+// Override this file to add your own SCSS styling.
+
+// header font (_root.scss)
+h1 {
+  font-size: 1.5rem;  // default = 2.25rem
+}
+
+// small button (_root.scss)
+.btn.btn-sm {
+  font-size: .7rem;  // defualt = .6rem
+  padding-top: 8px;  // default = 5px
+  padding-bottom: 8px;  // default = 5px
+}
+
+// main menu font (_nav.scss)
+.navbar {
+  font-size: .9rem;  // default = #{$sta-font-size-small}px
+}
+
+// padding above and below each home section (_widgets.scss)
+.home-section {
+  padding-top: 50px;  // default = 110px
+  padding-bottom: 50px;  // default = 110px
+}
+
+// profile section (_widgets.scss)
+#profile {
+  // text-align: left;  default = center
+  // padding-left: 0px;  // default = 10px
+  // position: absolute;  // default = relative
+}
+
+// portrait title name (_widgets.scss)
+.portrait-title h2 {
+  font-size: 1.5em;  // default = 1.75em
+  font-weight: 500;  // default = 300
+  margin-top: 15px;  // default = 20px
+  margin-bottom: 5px;  // default = 10px
+}
+
+// margin above the social network icons in profile (_widgets.scss)
+#profile .network-icon {
+  margin-top: 10px;  // default = 30px
+}
+
+// margin above the profile picture (_widgets.scss)
+#profile {
+  padding-top: 10px;  // default = 30px
+}
+
+// size of the profile avatar (_widgets.scss)
+.avatar {
+  width: 180px;  // default = 270px
+  height: 180px;  // default = 270px
+}
+
+// article metadata for authors and date (_content.scss)
+.article-metadata {
+  font-size: 1rem;  // default = 14px
+}
+
