@@ -54,9 +54,9 @@ social:
   link: https://github.com/pxch
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+- icon: cv
+  icon_pack: ai
+  link: files/pengxiang_cheng_cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -73,3 +73,6 @@ I am a Ph.D. candidate in the [Department of Computer Science](https://www.cs.ut
 My research interests lie in Natural Language Processing (NLP), focusing on computational semantics. I am particularly interested in different approaches of integrating structural semantic knowledge into end-to-end neural models for better semantic understanding and reasoning.
 
 Before coming to UT Austin, I completed my undergraduate studies at [Tsinghua University](http://www.tsinghua.edu.cn), majoring in Automation and Economics.
+
+For more information, please check my [CV](files/pengxiang_cheng_cv.pdf), or send me an [email](mailto:pxcheng@uteaxs.edu).
+
