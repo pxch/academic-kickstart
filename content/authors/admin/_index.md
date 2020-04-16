@@ -39,24 +39,28 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-- icon: envelope
-  icon_pack: fas
-  # link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-  link: 'mailto:pxcheng@utexas.edu'
-- icon: linkedin
-  icon_pack: fab
-  link: https://linkedin.com/in/pengxiang
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.com/citations?user=hqhIgYUAAAAJ
-- icon: github
-  icon_pack: fab
-  link: https://github.com/pxch
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 - icon: cv
   icon_pack: ai
+  link_name: Curriculum Vitae
   link: files/pengxiang_cheng_cv.pdf
+# - icon: envelope
+#   icon_pack: fas
+#   # link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+#   link: 'mailto:pxcheng@utexas.edu'
+- icon: linkedin
+  icon_pack: fab
+  link_name: LinkedIn
+  link: https://linkedin.com/in/pengxiang
+- icon: google-scholar
+  icon_pack: ai
+  link_name: Google Scholar
+  link: https://scholar.google.com/citations?user=hqhIgYUAAAAJ
+- icon: github
+  icon_pack: fab
+  link_name: GitHub
+  link: https://github.com/pxch
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -74,5 +78,4 @@ My research interests lie in Natural Language Processing (NLP), focusing on comp
 
 Before coming to UT Austin, I completed my undergraduate studies at [Tsinghua University](http://www.tsinghua.edu.cn), majoring in Automation and Economics.
 
-For more information, please check my [CV](files/pengxiang_cheng_cv.pdf), or send me an [email](mailto:pxcheng@uteaxs.edu).
-
+<!--For more information, please check my [CV](files/pengxiang_cheng_cv.pdf), or send me an [email](mailto:pxcheng@uteaxs.edu).-->

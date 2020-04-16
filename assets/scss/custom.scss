@@ -1,5 +1,10 @@
 // Override this file to add your own SCSS styling.
 
+// boostrap container max widths (boostrap_variables.scss)
+@media only screen and (min-width : 1200px) {
+    .container { max-width: 1000px; }  // default = 1200px
+}
+
 // header font (_root.scss)
 h1 {
   font-size: 1.5rem;  // default = 2.25rem
@@ -34,14 +39,10 @@ h1 {
 .portrait-title h2 {
   font-size: 1.5em;  // default = 1.75em
   font-weight: 500;  // default = 300
-  margin-top: 15px;  // default = 20px
-  margin-bottom: 5px;  // default = 10px
+  // margin-top: 15px;  // default = 20px
+  // margin-bottom: 5px;  // default = 10px
 }
 
-// margin above the social network icons in profile (_widgets.scss)
-#profile .network-icon {
-  margin-top: 10px;  // default = 30px
-}
 
 // margin above the profile picture (_widgets.scss)
 #profile {
@@ -52,6 +53,40 @@ h1 {
 .avatar {
   width: 180px;  // default = 270px
   height: 180px;  // default = 270px
+}
+
+// Use smaller avatar size in About widget on small devices. (_widgets.scss)
+@include media-breakpoint-down(sm) {
+  .wg-about .avatar {
+    width: 150px;  // default = 200px
+    height: 150px;  // default = 200px
+  }
+}
+
+// margin above the social network icons in profile (_widgets.scss)
+#profile .network-icon {
+  margin-top: 0px;  // default = 30px
+}
+
+// justify content for network icon flex box (_widgets.scss)
+// ul.network-icon {
+//   justify-content: center;  // default = center
+// }
+
+// layout of network icons (_widgets.scss)
+.network-icon li {
+  margin-left: 20px;  // default = 0
+  margin-right: 20px;  // default = 10px
+}
+
+.network-icon li:last-of-type {
+  margin-right: 20px;  // default = 0
+}
+
+
+// hover effect of network icons (_widgets.scss)
+.network-icon li:hover {
+  transform: scale(1.1)  // default = 1.2
 }
 
 // article metadata for authors and date (_content.scss)
