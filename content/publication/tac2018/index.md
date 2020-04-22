@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "The UTexas System for TAC SM-KBP Task 3: Probabilistic Generation of Coherent Hypotheses"
-authors: ["**Pengxiang Cheng**", "Eric Holgate", "Katrin Erk"]
+authors: ["admin", "Eric Holgate", "Katrin Erk"]
 date: 2018-11-13
 
 doi: ""

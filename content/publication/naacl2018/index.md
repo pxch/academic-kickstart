@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Implicit Argument Prediction with Event Knowledge"
-authors: ["**Pengxiang Cheng**", "Katrin Erk"]
+authors: ["admin", "Katrin Erk"]
 date: 2018-06-02
 
 doi: "10.18653/v1/N18-1076"

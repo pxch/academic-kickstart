@@ -1,18 +1,23 @@
 {{/* Display author list. */}}
 
 {{- $taxonomy := "authors" }}
+{{- $admin_page := site.GetPage (printf "/%s/%s" $taxonomy "admin") -}}
+{{- $admin_name := $admin_page.Params.name -}}
 {{ with .Param $taxonomy }}
   {{ $link_authors := site.Params.link_authors | default true }}
   {{ $authorLen := len . }}
   {{ range $index, $value := . }}
-    {{- $profile_page := site.GetPage (printf "/%s/%s" $taxonomy (. | urlize)) -}}
-    {{- $name := $profile_page.Params.name | default ($value|markdownify) -}}
+    {{- $profile_page := (index site.Params.publications.coauthor_links $value) -}}
+    {{- $name := $value | markdownify -}}
+    {{- if eq $name "admin" -}}
+      {{- $name = (printf "**%s**" $admin_name) | markdownify -}}
+    {{- end -}}
     {{- if and (eq $index (sub $authorLen 1)) (eq $index 1) }} and {{ else if eq $index (sub $authorLen 1) }}, and {{ else if gt $index 0 }}, {{ end -}}
     <span>
-      {{- if and $profile_page $link_authors -}}
-        <a href="{{$profile_page.RelPermalink}}">{{$name}}</a>
+      {{- if $profile_page -}}
+        <a href="{{ $profile_page | relURL }}" target="_blank">{{ $name }}</a>
       {{- else -}}
-        {{$name}}
+        {{ $name }}
       {{- end -}}
     </span>
   {{- end -}}

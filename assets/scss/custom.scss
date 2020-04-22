@@ -24,7 +24,7 @@ h1 {
 
 // padding above and below each home section (_widgets.scss)
 .home-section {
-  padding-top: 50px;  // default = 110px
+  padding-top: 80px;  // default = 110px
   padding-bottom: 50px;  // default = 110px
 }
 
@@ -92,5 +92,13 @@ h1 {
 // article metadata for authors and date (_content.scss)
 .article-metadata {
   font-size: 1rem;  // default = 14px
+}
+
+// link colors for author list in publication widget (new)
+.li-citation-metadata a {
+  color: inherit;
+}
+.li-citation-metadata a:hover {
+  color: $sta-primary;
 }
 

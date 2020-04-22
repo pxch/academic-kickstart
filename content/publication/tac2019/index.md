@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "The UTexas System for TAC 2019 SM-KBP Task 3: Hypothesis Detection with Graph Convolutional Networks"
-authors: ["**Pengxiang Cheng**", "Alex Tomkovich", "Eric Holgate", "Su Wang", "Katrin Erk"]
+authors: ["admin", "Alex Tomkovich", "Eric Holgate", "Su Wang", "Katrin Erk"]
 date: 2019-11-12
 
 doi: ""

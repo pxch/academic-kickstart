@@ -67,9 +67,9 @@ email: ""
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
-- Researchers
-- Visitors
+# user_groups:
+# - Researchers
+# - Visitors
 ---
 
 I am a Ph.D. candidate in the [Department of Computer Science](https://www.cs.utexas.edu) at the [University of Texas at Austin](https://www.utexas.edu), advised by [Professor Katrin Erk](http://www.katrinerk.com).

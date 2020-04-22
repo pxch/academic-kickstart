@@ -192,6 +192,15 @@ plugins_js  = []
   # Citation style ("apa" or "mla")
   citation_style = "custom"
 
+  [publications.coauthor_links]
+    "Katrin Erk" = "http://www.katrinerk.com"
+    "Raymond J. Mooney" = "http://www.cs.utexas.edu/~mooney/"
+    "Stephen Roller" = "https://www.stephenroller.com"
+    "I. Beltagy" = "https://www.linkedin.com/in/beltagy"
+    "Eric Holgate" = "https://www.ericholgate.com"
+    "Su Wang" = "http://suwangcompling.com"
+    "Alex Tomkovich" = "https://www.linkedin.com/in/alexander-tomkovich-3b446bb7"
+
 # Configuration of project pages.
 [projects]
   # Views for associated content.

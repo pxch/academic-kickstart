@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Implicit Argument Prediction as Reading Comprehension"
-authors: ["**Pengxiang Cheng**", "Katrin Erk"]
+authors: ["admin", "Katrin Erk"]
 date: 2019-01-29
 
 doi: "10.1609/aaai.v33i01.33016284"

@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Representing Meaning with a Combination of Logical and Distributional Models"
-authors: ["I. Beltagy", "Stephen Roller", "**Pengxiang Cheng**", "Katrin Erk", "Raymond J. Mooney"]
+authors: ["I. Beltagy", "Stephen Roller", "admin", "Katrin Erk", "Raymond J. Mooney"]
 date: 2016-12-01
 
 doi: "10.1162/COLI_a_00266"

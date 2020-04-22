@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Attending to Entities for Better Text Understanding"
-authors: ["**Pengxiang Cheng**", "Katrin Erk"]
+authors: ["admin", "Katrin Erk"]
 date: 2020-02-09
 
 doi: ""

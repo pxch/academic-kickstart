@@ -48,7 +48,7 @@
   {{ else }}
     {{ .Title }}.
   {{ end }}
-  <div>
+  <div class="li-citation-metadata">
     {{ partial "page_metadata_authors" . }}.
     {{ if .Params.publication_short }}
       <i>{{- .Params.publication_short | markdownify -}}</i>,
