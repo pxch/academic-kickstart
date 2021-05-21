@@ -72,9 +72,11 @@ email: ""
 # - Visitors
 ---
 
-I am a Ph.D. candidate in the [Department of Computer Science](https://www.cs.utexas.edu) at the [University of Texas at Austin](https://www.utexas.edu), advised by [Professor Katrin Erk](http://www.katrinerk.com).
+I am a senior research scientist at [Bloomberg AI](https://www.techatbloomberg.com/ai/), working on entity-centric analysis on news, social media, and financial documents, including named entity recognition, entity linking, and entity salience prediction.
 
-My research interests lie in Natural Language Processing (NLP), focusing on computational semantics. I am particularly interested in different approaches of integrating structural semantic knowledge into end-to-end neural models for better natural language understanding and reasoning.
+I recently completed my Ph.D. in the [Department of Computer Science](https://www.cs.utexas.edu) at [The University of Texas at Austin](https://www.utexas.edu), advised by [Professor Katrin Erk](http://www.katrinerk.com). During my time at UT Austin, my research interests lie in Natural Language Processing (NLP) and Computational Semantics. My dissertation focused on different approaches of integrating structural semantic knowledge into end-to-end neural models for better natural language understanding and reasoning.
+
+<!-- My research interests lie in Natural Language Processing (NLP), focusing on computational semantics. I am particularly interested in different approaches of integrating structural semantic knowledge into end-to-end neural models for better natural language understanding and reasoning. -->
 
 Before coming to UT Austin, I completed my undergraduate studies at [Tsinghua University](http://www.tsinghua.edu.cn), majoring in Automation and Economics.
 
